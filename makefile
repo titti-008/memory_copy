@@ -10,7 +10,7 @@ TARGET_TEST = memory_copy_test
 
 # Object files
 OBJS = memory_copy.o main.o
-OBJS_TEST = memory_copy_test.o
+OBJS_TEST = memory_copy.o memory_copy_test.o
 
 # Defalut target
 all: $(TARGET)
